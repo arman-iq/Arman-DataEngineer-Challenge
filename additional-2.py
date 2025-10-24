@@ -23,7 +23,7 @@ for file, cols in datasets.items():
 
     # if clean then skip
     if num_issues_before == 0:
-        print("No data quality issues found.\n")
+        print("No data quality issues found.")
         continue
 
     # fill missing text columns with 'Unknown'
